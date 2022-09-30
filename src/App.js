@@ -6,9 +6,9 @@ import EventPage from './components/EventPage';
 function App() {
   return (
     <>
-    {/* <Main /> */}
+    <Main />
     {/* <CreateEvent /> */}
-    {<EventPage />}
+    {/* {<EventPage />} */}
     </>
   );
 }

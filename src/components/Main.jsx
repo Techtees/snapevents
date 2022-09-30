@@ -5,10 +5,10 @@ import Button from "./shared/Button";
 function Main () {
     return(
        <div className="w-11/12 mx-auto max-w-7xl flex justify-between items-center mt-[60px]">
-        <div className="border">
+        <div>
             <img src={hero} className="w-[100%]" alt="" />
         </div>
-        <div className="w-[40%] border text-right">
+        <div className="w-[40%] text-right">
             <h1 className="lg:text-6xl font-bold text-primary-purple_dark">Imagine if <span style={{background:'linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%)',
                 webkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',

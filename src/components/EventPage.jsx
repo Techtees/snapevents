@@ -10,14 +10,12 @@ function EventPage() {
                 <p className="font-normal text-base text-general-grey_light_300">Hosted by <span className="font-bold ">Elysia</span></p>
                 <div className="flex">
                     <span className=""> <FaRegCalendarAlt size={30} color={'#8456EC'} /></span>
-
                 </div>
-                
             </div>
             <div className="">
                 <img src={event} alt="" className="w-[100%]" />
                 <div>18 August 6:00pm</div>
-                
+
             </div>
         </div>
     )
